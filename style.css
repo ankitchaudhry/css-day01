@@ -1,0 +1,163 @@
+.box {
+
+
+    background-color: #1CE592;
+
+    padding-top: 160px;
+    padding-left: 50px;
+    margin: 10px auto;
+    border-radius: 14px;
+    width: 550px;
+    height: 350px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn {
+    background-color: white;
+    padding: 14px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+.mpro{
+    border:solid rgb(181, 178, 178) 2px;
+    background-color: white;
+    border-radius: 12px;
+    height: 488px;
+    width: 580px;
+    margin: 12px auto;
+    
+
+}
+.profile {
+ 
+ 
+    padding: 30px;
+
+  height: 350px;
+  width: 600px;
+  
+    margin: 12px auto;
+font-family: sans-serif;
+
+    
+}
+
+.user {
+    padding: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ 
+}
+.seebtn {
+    margin: 10px auto;
+
+    height: 53px;
+width: 100%;
+    border: solid rgb(194, 194, 194) 2px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+   
+}
+.sbtn {
+    font-size: 25px;
+    border: none;
+    color: blueviolet;
+    background-color: white;
+    width: 100%;
+  text-align: left;
+}
+
+
+/*----------google------------------------------*/
+
+
+
+.google {
+    border: 1px solid lightgray;
+    width: 460px;
+
+    padding-bottom: 50px;
+    margin: 10px auto;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+
+
+.gphoto{
+    width: 100%;
+border-top-left-radius: 14px;
+border-top-right-radius: 14px;
+
+}
+    
+.gbtn {
+    background-color: white;
+    color: blueviolet;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 22px;
+    border: 2px solid gray;
+
+}
+.text-main {
+
+  
+
+   padding: 15px;
+    margin: 10px auto;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemF
+}
+
+
+
+.login{
+    border: none;
+    width:400px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    width:70%;
+}
+.p1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.input{
+    font-size:20px;
+    width: 350px;
+    padding:15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 40px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-size:20px;
+}
+.greytext{
+ color: grey;
+}
+.btn1{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    color: grey;
+   font-size: 15px;
+}
