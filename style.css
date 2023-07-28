@@ -1,163 +1,249 @@
-.box {
-
-
-    background-color: #1CE592;
-
-    padding-top: 160px;
-    padding-left: 50px;
-    margin: 10px auto;
-    border-radius: 14px;
-    width: 550px;
-    height: 350px;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.zomato-card{
+    border: solid rgba(175, 170, 170, 0.218) 2px;
+    padding: 12px;
+    width: 400px;
+    height: 550px;
+    margin: 12px auto;
+border-radius: 12px;
+position: relative;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
-.btn {
-    background-color: white;
-    padding: 14px 60px;
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    border-radius: 30px;
-    color: black;
-}
-.mpro{
-    border:solid rgb(181, 178, 178) 2px;
-    background-color: white;
+.chicken-img {
+    width: 100%;
+    height: 300px;
     border-radius: 12px;
-    height: 488px;
-    width: 580px;
-    margin: 12px auto;
-    
+}
+.indian {
+    color: rgba(104, 92, 92, 0.777);
+}
+.line {
+border: solid rgba(154, 147, 147, 0.218) 0.2px;
 
 }
-.profile {
+.max-logo {
+    padding: 4px;
+    width:55px;
+    height: 25px;
+}
+.tag-line {
+  padding-left: 120px;
+  padding-right: 80px;
+  color: rgb(104, 97, 97);
+  margin: -40px;
+}
+.discount {
+position: absolute;
+width: 45%;
+height: 30px;
+left: 12px;
+top: 270px;
+
+background-color: rgb(61, 32, 87);
+}
+.discount1 {
+   padding-left: 14px;
+   padding-bottom: -22px;
+   position: absolute;
+   left: 12px;
+bottom: -10px;
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.time {
+    position: absolute;
+    width: 20%;
+    height: 30px;
+    right: 12px;
+    top: 270px;
  
- 
-    padding: 30px;
-
-  height: 350px;
-  width: 600px;
-  
-    margin: 12px auto;
-font-family: sans-serif;
-
+ margin-right: 12px;
+    background-color: white;
+    border-radius: 7px;
+    }
+    .time1 {
+       padding-right: 14px;
+       padding-bottom: -22px;
+       position: absolute;
+       right: 12px;
+    bottom: -10px;
+       color: rgb(6, 5, 5);
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
-}
+    }
 
-.user {
-    padding: 50px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
- 
-}
-.seebtn {
-    margin: 10px auto;
+    .Promoted{
+        position: absolute;
+        width: 25%;
+        height: 30px;
+        left: 12px;
+        top: 30px;
+     
+     margin-left: 12px;
+        background-color: rgba(223, 216, 216, 0.52);
+        border-radius: 7px;
+        }
+        .Promoted1 {
+           padding-right: 14px;
+           padding-bottom: -22px;
+           position: absolute;
+           left: 12px;
+            bottom: -10px;
+           color: white
+        }
 
-    height: 53px;
-width: 100%;
-    border: solid rgb(194, 194, 194) 2px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-   
-}
-.sbtn {
-    font-size: 25px;
-    border: none;
-    color: blueviolet;
-    background-color: white;
-    width: 100%;
-  text-align: left;
-}
-
-
-/*----------google------------------------------*/
-
-
-
-.google {
-    border: 1px solid lightgray;
-    width: 460px;
-
-    padding-bottom: 50px;
-    margin: 10px auto;
-    border-radius: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-  
-
-
-.gphoto{
-    width: 100%;
-border-top-left-radius: 14px;
-border-top-right-radius: 14px;
-
-}
+        /*-------------------card 2---------------------------*/
+        .card-2 {
+            border: solid rgba(170, 163, 163, 0.78) 1px;
+width: 900px;
+height: 400px;
+margin: 12px auto;
+border-radius: 10px;
+position: relative;
+        }
     
-.gbtn {
-    background-color: white;
-    color: blueviolet;
-    border-radius: 8px;
-    height: 50px;
-    width: 200px;
-    border: none;
-    font-size: 22px;
-    border: 2px solid gray;
+    .background-img {
+        border: solid gray 1px;
+        width: 900px;
+        height: 400px;  
+        border-radius: 10px;
+        
+        }
+        .card-2-items{
+            position: absolute;
+            bottom: 100px;
+            text-align: center;
+          
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        
+        }
+        .btn {
+            border: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: large;
+        background-color: white;
+        }
 
-}
-.text-main {
 
-  
+        /*----------------zomato-----------------------------------------------*/
+        .zomato {
+            border: solid rgba(170, 163, 163, 0.78) 1px;
+            width: 900px;
+            height: 300px;
+            margin: 12px auto;
+            border-radius: 10px;
+            position: relative;
+            text-align: center;
+            font-size: x-large;
+            color: white;
+        }
+      
 
-   padding: 15px;
-    margin: 10px auto;
-    border-radius: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemF
-}
+        .food-img {
+            border: solid gray 1px;
+            width: 900px;
+            height: 300px;  
+            border-radius: 10px;
+           
+        }
+        .trans {
+            border: solid rgba(170, 163, 163, 0) 1px;
+            width: 900px;
+            height: 300px;
+            margin: 12px auto;
+            border-radius: 10px;
+            position: absolute;
+            top: -4.5%;
+            background-color: rgba(9, 8, 8, 0.554);
+        }
+
+        .logo {
+            position: absolute;
+           top: 50px;
+        left: 350px;
+       
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .z-tag-line {
+            position: absolute;
+            top: 130px;
+         left: 210px;
+         text-align: center;
+         font-size: x-large;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 250;
+        }
+
+        .bar {
+            position: absolute;
+            top: 70%;
+            width: 80%;
+            left: 9%;
+            background-color: white;
+            padding: 7px;
+            border-radius: 20px;
+        
+        }
+        
+        .location2 {
+            width: 30px;
+        
+        }
+        
+        .search {
+            width: 30px;
+        }
+        
+        .city {
+            width: 200px;
+            border: none;
+            font-size: 15px;
+            margin: 10px auto;
+            border-right: 2px solid lightgray;
+        }
+        
+        .inp {
+            width: 400px;
+            border: none;
+            font-size: 15px;
+        }
+        
 
 
-
-.login{
-    border: none;
-    width:400px;
-    margin: 30px auto;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.logo{
-    width:70%;
-}
-.p1{
-    font-weight: bold;
-    font-size: 25px;
-}
-.input{
-    font-size:20px;
-    width: 350px;
-    padding:15px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-}
-.btn{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 40px;
-    width: 300px;
-    background-color: black;
-    padding: 20px;
-    color: white;
-    font-size:20px;
-}
-.greytext{
- color: grey;
-}
-.btn1{
-    border: none;
-    background-color: white;
-    text-decoration: underline;
-    color: grey;
-   font-size: 15px;
-}
+        .profile-card {
+            height: 400px;
+            width: 500px;
+            margin: 80px auto;
+            border: 1px solid lightgrey;
+            position: relative;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            box-shadow: 0px 0px 4px 4px #dedada;
+        }
+        
+        #mountain {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 100%;
+            height: 40%;
+        }
+        
+        #face {
+            position: absolute;
+            bottom: 40%;
+            left: 34%;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px white solid;
+        }
+        
+        .profile-card h1 {
+            text-align: center;
+            margin-top: 90px;
+        }
+        
